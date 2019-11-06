@@ -1,0 +1,76 @@
+.login {
+    max-width: 500px;
+    min-width: 400px;
+    margin: 50px auto 10px;
+}
+
+.login .login-form {
+    background-color: rgba(222, 222, 222, 0.3);
+    border-radius: 2px;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.5);
+    padding: 20px 30px;
+}
+
+.login .login-form .input-group {
+    margin-top: 10px;
+}
+
+.login .login-form .input-group-addon {
+    background: #fff;
+    border-right: none;
+}
+
+.login .login-form input[type="email"],
+.login .login-form input[type="password"] {
+    border-left: none;
+}
+
+.login .login-form input[type="email"]:focus,
+.login .login-form input[type="password"]:focus {
+    border-left: 3px solid #e74c3c;
+    transition: 0.4s ease;
+}
+
+.login .login-form input[type="submit"]#login {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    height: 40px;
+}
+
+.login .login-form .login-bar {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.login .login-form .login-bar label {
+    font-weight: normal;
+}
+
+.login .register {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.login .register .register-inner {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-login {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+
+.btn-fceduca {
+    background-color: #eb7b27;
+    border-color: #d37a38;
+    color: #fff;
+}
+
+.btn-fceduca:hover {
+    background-color: #d37a38;
+    color: #fff;
+}
