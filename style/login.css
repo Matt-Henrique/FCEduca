@@ -1,6 +1,6 @@
 .login {
     max-width: 500px;
-    min-width: 400px;
+    min-width: 350px;
     margin: 50px auto 10px;
 }
 
@@ -50,12 +50,7 @@
 }
 
 .login .register {
-    margin-top: 50px;
-    padding: 10px;
-}
-
-.login .sign-in {
-    margin-top: 20px;
+    margin-top: 38px;
     padding: 10px;
 }
 
@@ -83,10 +78,72 @@
     display: inline-flex;
 }
 
+.form-radio {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.form-check-input {
+    margin-top: 2px !important;
+}
+
 .form-check-label {
     margin-left: 10px;
+    font-size: 12px;
 }
 
 hr {
     border-top-color: #bebebe;
+}
+
+.custom-select {
+    width: 100%;
+    padding: 5px;
+}
+
+.input-group-text {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.texto {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pergunta {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.login .login-form input[type="submit"]#next {
+    margin: 0 auto;
+    height: 40px;
+}
+
+.circle {
+    background-color: #eb7b27;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.circle-center {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.circle-number {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    padding: 8px;
+    display: block;
+}
+
+.texto-resultado {
+    margin: 40px;
+    font-size: 16px;
+    text-align: center;
 }
