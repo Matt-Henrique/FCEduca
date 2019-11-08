@@ -202,17 +202,14 @@ hr {
 }
 
 .fotoperfil {
-    height: 220px;
-    width: 200px;
+    margin-top: 20px;
     margin-left: 95px;
 }
 
 .infos {
-    height: 180px;
-    width: 280px;
     position: absolute;
     margin-left: 60px;
-    margin-top: 17px;
+    margin-top: 10px;
 }
 
 .conteudo {
@@ -287,4 +284,24 @@ body {
 .radio-label {
     font-weight: normal;
     margin-left: 5px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 0 90px;
+}
+
+.cards img {
+    margin: 20px;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 280px;
+    height: 160px;
+}
+
+.cards div {
+    text-align: center;
+    font-size: 18px;
 }
