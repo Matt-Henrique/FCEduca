@@ -279,3 +279,12 @@ body {
     width: 1000px;
     margin-top: 18px;
 }
+
+.perguntacrm {
+    font-size: 18px;
+}
+
+.radio-label {
+    font-weight: normal;
+    margin-left: 5px;
+}
