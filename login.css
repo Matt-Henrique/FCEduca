@@ -301,7 +301,7 @@ body {
     height: 160px;
 }
 
-.cards div {
+.cards a {
     text-align: center;
     font-size: 18px;
 }
